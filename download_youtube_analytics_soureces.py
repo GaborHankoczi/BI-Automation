@@ -12,6 +12,8 @@ CLIENT_SECRETS_FILE = "client_secret.json"
 # Scopes required for accessing YouTube Analytics
 SCOPES = ["https://www.googleapis.com/auth/yt-analytics.readonly","https://www.googleapis.com/auth/youtube.readonly"]
 
+anonimize = True
+
 def authenticate_with_oauth():
     """Authenticate and get OAuth credentials."""
     creds = None
@@ -132,6 +134,7 @@ def get_channel_videos(credentials):
     return video_details
 
 if __name__ == "__main__":
+    
     # Authenticate with OAuth 2.0
     credentials = authenticate_with_oauth()
     
@@ -141,4 +144,5 @@ if __name__ == "__main__":
     with codecs.open("youtube_analytics.csv", "w", "utf-8") as file:
         file.write("title|views|publishedAt\n")
         for video in channel_videos:
-            file.write(f"{video['title']}|{video['views']}|{video['publishedAt']}\n")
+            title = str(hash(str(video['title']))) if anonimize else str(video['title'])
+            file.write(f"{title}|{video['views']}|{video['publishedAt'].split('T')[0]}\n")

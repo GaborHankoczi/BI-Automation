@@ -1,0 +1,6 @@
+BI Integration services/BI Integration services/bin
+BI Integration services/BI Integration services/obj
+*.csv
+*.json
+*.txt
+BI Integration services/.vs/BI Integration services/FileContentIndex

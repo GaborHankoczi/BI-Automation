@@ -18,6 +18,8 @@ podcasts = json.loads(response.text)
 
 data_items = []
 
+anonimize = True
+
 for podcast in podcasts['collection']:
     # get episodes for each podcast
     url = "https://api.simplecast.com/analytics/episodes?limit=200&podcast=" + podcast['id']
@@ -30,5 +32,7 @@ for podcast in podcasts['collection']:
 with codecs.open("simplecast_analytics.csv", "w", "utf-8") as file:
     file.write("podcast|season|episode|title|downloads|publishedAt\n")
     for item in data_items:
-        file.write(str(item['podcast']) + "|" + str(item['season']) + "|" + str(item['episode']) + "|" + str(item['title']) + "|" + str(item['downloads']) + "|" + str(item['publishedAt']) + "\n")
+        podcast = str(hash(str(item['podcast']))) if anonimize else str(item['podcast'])
+        title = str(hash(str(item['title']))) if anonimize else str(item['title'])
+        file.write(podcast + "|" + str(item['season']) + "|" + str(item['episode']) + "|" + title + "|" + str(item['downloads']) + "|" + str(item['publishedAt']).split('T')[0] + "\n")
 

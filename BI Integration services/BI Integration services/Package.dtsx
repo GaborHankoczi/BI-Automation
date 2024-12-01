@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="78"
-  DTS:VersionGUID="{468FC92D-8B22-4ACE-8F2B-A3BE574EFA2D}">
+  DTS:VersionBuild="86"
+  DTS:VersionGUID="{F0B2C2B3-A214-40A4-8F5C-FFC6B8DD1DA2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -85,7 +85,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS5Gvs9SimU6cBRXkczVMygAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABPkrrlp7TTsJleYXrXqKWpZaKnOBlAzNG7NpixSxN+MwAAAAAOgAAAAAIAACAAAAC29LYuM895BMYOJXArN/SeaPmBbIh/8MyjuCC7PkNA2DAAAADTylgDcG24fqVcr/hH2uu5FQRIXEIplVEcyit8LJw5v7V4DTYjfGHcSqk1oT1lsQBAAAAA+kPETsFJyDpRnBeXkikjyNRdRh6zCBKKCgxmDgIRpi3eyVlroaoEeClRImrRPbSVDi/u7dRhn++yjsTV/4d6ug</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS5Gvs9SimU6cBRXkczVMygAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADYDnEkPsQyqBOQbE3wvuC3LUV4UbYaLsujKfKreciJtwAAAAAOgAAAAAIAACAAAACoxUrRdgnXH3Pi4w0DKU6Bu+uWuZc/PIzaqz3/otqu5TAAAAC5+fkwQiQ6vLa/BpFKySTT0FkE5gbr83kLx7h5Ia/Tqnnv51qrH9NvBRbNAb37ucxAAAAAtiRMKrGfC2cN6OlKGH6o3V1tH2tAXdxrPr9vdFlzHuX7l7XgvE+yQEBaj6VvkHcDG5bi9kD9W5hInouWhLXATg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -102,7 +102,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS5Gvs9SimU6cBRXkczVMygAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAnUwetgalcJXovJPGjaNXXpcF5mj5CCjwOe6ujzwabgQAAAAAOgAAAAAIAACAAAACitiqELP5FiqtairNwwqMC1ZHM1D0C5QELwYxIpNVXCTAAAACUOSocFlcaY8rQmBJmhwSRseQaL/09fICo+cY3rYnzEahWfrQEyCIUQQDKPl8eZrBAAAAA6W5ntFkyIaiPBHU3xiAelizAwLj1n0Gd3Gg54nx6jbJKddP8ngpLYs8vnhdHBFcKrSbd8N7rQiMsVR+pLoZsMw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS5Gvs9SimU6cBRXkczVMygAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD/a9ZgCvXCGXd/cWe+ufzXtQap3jZBynkO5vS6C8xvEQAAAAAOgAAAAAIAACAAAABiYbrZbCOQb5GhpMllTAZ10xBQ9OA4mMmDDaFhnpPXdzAAAAAmsDGus1tdWLNI2pvUUmXnuLXgf74yOdjKFD0gw/OJ+/lKNEfJ2teVBx/Iem8Jio9AAAAA6uDAq34Gvgkf27VZFG3mRpWySYqh+cuRLEnP8+uPO8/a1siDUYfGMkMjUVNIGxaexq6ighB21LQJ6EbIOSfp/g</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -129,7 +129,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="podcast"
-              DTS:DTSID="{1C50D2F5-C692-48DD-A69D-B3BC35A571D2}"
+              DTS:DTSID="{62432F2B-B459-4227-AD4A-8E52DDAA7012}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -138,7 +138,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="season"
-              DTS:DTSID="{B370D67B-71B1-4FA3-BF06-1CA1D119EC66}"
+              DTS:DTSID="{A77F31E1-ABB5-4482-9A30-A92CCA2552E0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -147,7 +147,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="episode"
-              DTS:DTSID="{FF450DD4-B611-4C68-A14E-226330D71467}"
+              DTS:DTSID="{A115083A-BD75-4EBA-93E0-ECD11DDB476B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -156,16 +156,24 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="title"
-              DTS:DTSID="{58822209-5DC9-4B41-A006-0F1EEEEB0C06}"
+              DTS:DTSID="{6C7D9090-6AE5-441A-8B4F-12A1D04DCADB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:DataType="131"
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="downloads"
-              DTS:DTSID="{470A1588-7451-4F2D-88F1-348A12F3914E}"
+              DTS:DTSID="{B0A5BB17-8473-4536-B757-EB2A03E669A8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="publishedAt"
+              DTS:DTSID="{4C9DF584-C1F1-4259-BF02-BA85B949DB6D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -194,16 +202,24 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="title"
-              DTS:DTSID="{36CB37DE-E325-40E8-B291-0AE8D90E39E0}"
+              DTS:DTSID="{0BB6F2D6-01CF-4A42-9FF9-97627E5C829F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:DataType="131"
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="views"
-              DTS:DTSID="{1DDC2E74-73A7-4273-9863-94F84C7AD17F}"
+              DTS:DTSID="{03561641-2C39-4AA8-A182-7BD5DB975097}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="publishedAt"
+              DTS:DTSID="{7235B888-707C-43CC-8F34-BDF2D0BFE991}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -241,13 +257,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Execute Process Task"
+      DTS:refId="Package\Download Google Analytics data"
       DTS:CreationName="Microsoft.ExecuteProcess"
       DTS:Description="Execute Process Task"
-      DTS:DTSID="{3BA47BF5-7346-4417-8AA7-3E691D388380}"
+      DTS:DTSID="{2015ef7d-b033-4bcc-9dec-711a34374a54}"
       DTS:ExecutableType="Microsoft.ExecuteProcess"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Execute Process Task"
+      DTS:ObjectName="Download Google Analytics data"
       DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
@@ -255,6 +271,42 @@
         <ExecuteProcessData
           Executable="D:\BME\9.felev\BI\HW\BI-Automation\.venv\Scripts\python.exe"
           Arguments="D:\BME\9.felev\BI\HW\BI-Automation\download_google_analytics_sources.py --deanonymize a"
+          WorkingDirectory="D:\BME\9.felev\BI\HW\BI-Automation" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Download Simplecast data"
+      DTS:CreationName="Microsoft.ExecuteProcess"
+      DTS:Description="Execute Process Task"
+      DTS:DTSID="{3BA47BF5-7346-4417-8AA7-3E691D388380}"
+      DTS:ExecutableType="Microsoft.ExecuteProcess"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Download Simplecast data"
+      DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecuteProcessData
+          Executable="D:\BME\9.felev\BI\HW\BI-Automation\.venv\Scripts\python.exe"
+          Arguments="D:\BME\9.felev\BI\HW\BI-Automation\download_simplecast_sources.py"
+          WorkingDirectory="D:\BME\9.felev\BI\HW\BI-Automation" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Download Youtube Analytics data"
+      DTS:CreationName="Microsoft.ExecuteProcess"
+      DTS:Description="Execute Process Task"
+      DTS:DTSID="{9d6677dd-1189-4db2-a8b8-649774cd5bd0}"
+      DTS:ExecutableType="Microsoft.ExecuteProcess"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Download Youtube Analytics data"
+      DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecuteProcessData
+          Executable="D:\BME\9.felev\BI\HW\BI-Automation\.venv\Scripts\python.exe"
+          Arguments="D:\BME\9.felev\BI\HW\BI-Automation\download_youtube_analytics_soureces.py"
           WorkingDirectory="D:\BME\9.felev\BI\HW\BI-Automation" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -480,8 +532,12 @@
                     <externalMetadataColumn
                       refId="Package\Load Dimension Tables\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Title]"
                       dataType="wstr"
-                      length="255"
+                      length="300"
                       name="Title" />
+                    <externalMetadataColumn
+                      refId="Package\Load Dimension Tables\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[PodcastEquivalent]"
+                      dataType="i4"
+                      name="PodcastEquivalent" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2286,6 +2342,26 @@ WHERE NOT EXISTS (
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Load into staging tables\Flat File Source 1.Outputs[Flat File Source Output].Columns[publishedAt]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load into staging tables\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[publishedAt]"
+                      lineageId="Package\Load into staging tables\Flat File Source 1.Outputs[Flat File Source Output].Columns[publishedAt]"
+                      name="publishedAt"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2299,6 +2375,10 @@ WHERE NOT EXISTS (
                       dataType="numeric"
                       name="views"
                       precision="18" />
+                    <externalMetadataColumn
+                      refId="Package\Load into staging tables\Flat File Source 1.Outputs[Flat File Source Output].ExternalColumns[publishedAt]"
+                      dataType="date"
+                      name="publishedAt" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2466,6 +2546,26 @@ WHERE NOT EXISTS (
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Load into staging tables\Flat File Source 3.Outputs[Flat File Source Output].Columns[publishedAt]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load into staging tables\Flat File Source 3.Outputs[Flat File Source Output].ExternalColumns[publishedAt]"
+                      lineageId="Package\Load into staging tables\Flat File Source 3.Outputs[Flat File Source Output].Columns[publishedAt]"
+                      name="publishedAt"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2494,6 +2594,10 @@ WHERE NOT EXISTS (
                       dataType="numeric"
                       name="downloads"
                       precision="18" />
+                    <externalMetadataColumn
+                      refId="Package\Load into staging tables\Flat File Source 3.Outputs[Flat File Source Output].ExternalColumns[publishedAt]"
+                      dataType="date"
+                      name="publishedAt" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2766,6 +2870,12 @@ WHERE NOT EXISTS (
                       cachedPrecision="18"
                       externalMetadataColumnId="Package\Load into staging tables\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[views]"
                       lineageId="Package\Load into staging tables\Flat File Source 1.Outputs[Flat File Source Output].Columns[views]" />
+                    <inputColumn
+                      refId="Package\Load into staging tables\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[publishedAt]"
+                      cachedDataType="date"
+                      cachedName="publishedAt"
+                      externalMetadataColumnId="Package\Load into staging tables\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[publishedAt]"
+                      lineageId="Package\Load into staging tables\Flat File Source 1.Outputs[Flat File Source Output].Columns[publishedAt]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2782,6 +2892,10 @@ WHERE NOT EXISTS (
                       refId="Package\Load into staging tables\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[views]"
                       dataType="i4"
                       name="views" />
+                    <externalMetadataColumn
+                      refId="Package\Load into staging tables\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[publishedAt]"
+                      dataType="dbDate"
+                      name="publishedAt" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2917,6 +3031,12 @@ WHERE NOT EXISTS (
                       cachedName="title"
                       externalMetadataColumnId="Package\Load into staging tables\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[title]"
                       lineageId="Package\Load into staging tables\Flat File Source 3.Outputs[Flat File Source Output].Columns[title]" />
+                    <inputColumn
+                      refId="Package\Load into staging tables\OLE DB Destination 2.Inputs[OLE DB Destination Input].Columns[publishedAt]"
+                      cachedDataType="date"
+                      cachedName="publishedAt"
+                      externalMetadataColumnId="Package\Load into staging tables\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[publishedAt]"
+                      lineageId="Package\Load into staging tables\Flat File Source 3.Outputs[Flat File Source Output].Columns[publishedAt]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2946,6 +3066,10 @@ WHERE NOT EXISTS (
                       dataType="wstr"
                       length="300"
                       name="title" />
+                    <externalMetadataColumn
+                      refId="Package\Load into staging tables\OLE DB Destination 2.Inputs[OLE DB Destination Input].ExternalColumns[publishedAt]"
+                      dataType="dbDate"
+                      name="publishedAt" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3001,7 +3125,7 @@ WHERE NOT EXISTS (
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{85F224A6-5F56-4CD1-ACA7-B1CA8CF64910}"
-      DTS:From="Package\Execute Process Task"
+      DTS:From="Package\Download Simplecast data"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Load into staging tables" />
@@ -3029,6 +3153,22 @@ WHERE NOT EXISTS (
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\Load Dimension Tables" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{576FFE1F-0579-4B36-AA76-C0DE020165C9}"
+      DTS:From="Package\Download Youtube Analytics data"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Download Simplecast data" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
+      DTS:CreationName=""
+      DTS:DTSID="{3D3A3285-BF03-4A8F-8A56-22F315371EF7}"
+      DTS:From="Package\Download Google Analytics data"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 5"
+      DTS:To="Package\Download Youtube Analytics data" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -3043,35 +3183,39 @@ WHERE NOT EXISTS (
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="188,42"
-          Id="Package\Execute Process Task"
-          TopLeft="242,69" />
+          Size="195,42"
+          Id="Package\Clean staging Data"
+          TopLeft="231.5,396.5" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Download Simplecast data"
+          TopLeft="221,215" />
         <NodeLayout
           Size="194,42"
           Id="Package\Load Dimension Tables"
-          TopLeft="235.5,327.5" />
+          TopLeft="229.5,476.5" />
         <NodeLayout
           Size="200,42"
           Id="Package\Load Fact Tables"
-          TopLeft="231.5,402.5" />
+          TopLeft="225.5,551.5" />
         <NodeLayout
           Size="195,42"
           Id="Package\Load into staging tables"
-          TopLeft="237,161" />
+          TopLeft="231,310" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="335.25,111">
+          TopLeft="327,257">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,50"
+              EndConnector="0,53"
               Start="0,0"
-              End="0,42.5">
+              End="0,45.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,42.5" />
+                    End="0,45.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3080,35 +3224,9 @@ WHERE NOT EXISTS (
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="332,369.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33"
-              Start="0,0"
-              End="0,25.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="195,42"
-          Id="Package\Clean staging Data"
-          TopLeft="237.5,247.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="334.75,203">
+          TopLeft="328.75,352">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -3129,8 +3247,82 @@ WHERE NOT EXISTS (
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="326,518.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33"
+              Start="0,0"
+              End="0,25.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="333.75,289.5">
+          TopLeft="327.75,438.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="243,42"
+          Id="Package\Download Youtube Analytics data"
+          TopLeft="208.5,143.5" />
+        <NodeLayout
+          Size="238,42"
+          Id="Package\Download Google Analytics data"
+          TopLeft="210.5,63.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="327.75,185.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29.5"
+              Start="0,0"
+              End="0,22">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="329.75,105.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -3157,7 +3349,7 @@ WHERE NOT EXISTS (
     design-time-name="Package\Load Dimension Tables">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="166,42"
           Id="Package\Load Dimension Tables\OLE DB Source 2"
@@ -3201,9 +3393,7 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-15.47556640625,17.44873046875,30.9511328125,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3225,9 +3415,7 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-15.49265625,14.4658203125,30.9853125,9.568359375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3249,16 +3437,14 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-15.10447265625,15.52685546875,30.2089453125,9.4462890625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Load Dimension Tables\OLE DB Source 2">
+    design-time-name="Package\Load Dimension Tables\OLE DB Destination 2">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3271,7 +3457,7 @@ WHERE NOT EXISTS (
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load Dimension Tables\OLE DB Destination 2">
+    design-time-name="Package\Load Dimension Tables\OLE DB Source 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3297,7 +3483,7 @@ WHERE NOT EXISTS (
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load Dimension Tables\OLE DB Destination">
+    design-time-name="Package\Load Dimension Tables\OLE DB Source 2">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3310,7 +3496,7 @@ WHERE NOT EXISTS (
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load Dimension Tables\OLE DB Source 1">
+    design-time-name="Package\Load Dimension Tables\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3506,7 +3692,7 @@ WHERE NOT EXISTS (
     design-time-name="Package\Load into staging tables">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="186,42"
           Id="Package\Load into staging tables\OLE DB Destination 2"
@@ -3550,9 +3736,7 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-20.8501171875,35.46337890625,41.700234375,9.5732421875"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3574,9 +3758,7 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-20.8794140625,35.44873046875,41.758828125,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3598,14 +3780,25 @@ WHERE NOT EXISTS (
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-17.83447265625,34.9658203125,35.6689453125,9.568359375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load into staging tables\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load into staging tables\OLE DB Destination 2">
     <Properties>
@@ -3621,19 +3814,6 @@ WHERE NOT EXISTS (
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load into staging tables\OLE DB Destination 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load into staging tables\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
